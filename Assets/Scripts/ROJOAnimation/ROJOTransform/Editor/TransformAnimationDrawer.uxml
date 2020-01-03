@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xmlns:rojo="ROJO.EditorUtils"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+  <ui:VisualElement class="main-container">
+    <rojo:ToggleView name="toggleView">
+      <ui:VisualElement name="Animations"/>
+      <ui:VisualElement name="Events"/>
+    </rojo:ToggleView>
+  </ui:VisualElement>
+
+</ui:UXML>

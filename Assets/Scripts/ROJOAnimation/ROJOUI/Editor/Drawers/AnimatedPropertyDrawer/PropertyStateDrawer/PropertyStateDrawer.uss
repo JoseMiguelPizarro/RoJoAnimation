@@ -1,0 +1,15 @@
+﻿.propertyState-container {
+    border-width: 1px;
+    border-color: rgba(0,0,0,.5);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    -unity-font-style: bold;
+    background-color:rgba(255,255,255,.3);
+    flex-direction:column;
+}
+
+.type-field {
+    margin-bottom:5px;
+}

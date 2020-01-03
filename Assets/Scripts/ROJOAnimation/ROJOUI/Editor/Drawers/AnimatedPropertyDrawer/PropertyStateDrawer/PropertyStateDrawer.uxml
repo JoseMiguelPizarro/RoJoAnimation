@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xmlns:r="RoJoStudios.EditorUtils"
+>
+
+  <ui:VisualElement class="propertyState-container" >
+    <ui:VisualElement class="row-container type-field">
+      <ui:Label class="field-label" text="Type"></ui:Label>
+      <uie:EnumField name="typeField"/>
+    </ui:VisualElement>
+    <ui:VisualElement class="row-container" >
+      <ui:VisualElement class="column-container type-field">
+        <ui:Label text="Property"/>
+        <r:DropdownList name="shaderPropertiesField"/>
+      </ui:VisualElement>
+
+      <ui:VisualElement name="propertyContainer" class="column-container material-property-element type-field">
+        <ui:Label text="Value"/>
+        <ui:VisualElement name="valueContainer"/>
+      </ui:VisualElement>
+
+    </ui:VisualElement>
+
+    <ui:VisualElement class="row-container">
+      <ui:Label class="field-label" text ="Duration"/>
+      <uie:FloatField name="duration"/>
+    </ui:VisualElement>
+
+  </ui:VisualElement>
+</ui:UXML>

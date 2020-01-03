@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:r="RoJoStudios.EditorUtils">
+  <ui:VisualElement name="propertiesContainer" class="container">
+    <ui:VisualElement class="row-container header-container" name="headerContainer">
+      <ui:Toggle name="enabledToggle"/>
+      <ui:VisualElement class="title-Bar">
+        <ui:TextElement class="main-header" name="behaviourName"/>
+      </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="mainContainer" class="main-container">
+      <r:ToggleView name="toggleView">
+        <ui:VisualElement class="column-container" name="Animations"/>
+        <ui:VisualElement class="column-container hidden" name="Events"/>
+      </r:ToggleView>
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

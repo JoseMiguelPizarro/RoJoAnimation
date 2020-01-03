@@ -1,0 +1,17 @@
+{
+    "name": "RoJoStudios.RoJoAnimation",
+    "references": [
+        "GUID:08fc7733023e4554d9f4c0da020e9381",
+        "GUID:beeda7c7d2d18074fa3c617bb473a815",
+        "GUID:ec0adf532091e4e41a819e2df9077004"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

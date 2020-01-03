@@ -1,0 +1,14 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xmlns:r="ROJO.EditorUtils">
+
+  <ui:VisualElement name="animatedPropertiesContainer" class="default-container">
+    <ui:VisualElement class="default-header header row-container" name="header">
+      <ui:Toggle name="enabledToggle"/>
+      <ui:TextElement text="Animated Properties"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="propertiesContainer" class="default-properties-container animated-properties-container">
+    </ui:VisualElement> 
+
+  </ui:VisualElement>
+</ui:UXML>

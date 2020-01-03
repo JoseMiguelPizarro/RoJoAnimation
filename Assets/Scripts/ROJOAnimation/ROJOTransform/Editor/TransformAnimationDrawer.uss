@@ -1,0 +1,13 @@
+﻿.main-container {
+    padding: 10px;
+    background-color: rgba(230,230,230,1);
+    border-radius: 5px;
+    border-right-width: 4px;
+    border-bottom-width:5px;
+    border-right-color: rgba(0,0,0,.3);
+    border-bottom-color: rgba(0,0,0,.3);
+}
+
+.buttons-container {
+
+}

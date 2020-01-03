@@ -1,0 +1,11 @@
+﻿.hidden {
+    display: none;
+}
+
+.buttons-container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color:rgba(200,200,200,1);
+    padding:3px;
+    border-radius:3px;
+}

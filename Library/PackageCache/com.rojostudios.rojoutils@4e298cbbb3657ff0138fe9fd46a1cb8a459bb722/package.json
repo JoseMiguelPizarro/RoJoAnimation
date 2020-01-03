@@ -1,0 +1,15 @@
+{
+  "name": "com.rojostudios.rojoutils",
+  "version": "0.0.2",
+  "displayName": "RoJoUtils",
+  "description": "Utils for unity",
+  "unity": "2019.2",
+  "keywords": [
+    "tools",
+    "editor"
+  ],
+  "author": {
+    "name": "Jose Hojaverde",
+    "email": "rojostudios2019@gmail.com"
+  }
+}

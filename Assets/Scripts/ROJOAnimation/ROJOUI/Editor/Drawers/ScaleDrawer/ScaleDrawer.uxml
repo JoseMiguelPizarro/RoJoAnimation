@@ -1,0 +1,42 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+  <ui:VisualElement name="scaleContainer" class="default-container scale-container">
+    <ui:VisualElement class="default-header header row-container" name="header">
+      <ui:Toggle name="enabledToggle"/>
+      <ui:TextElement text="Scale"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="propertiesContainer" class="default-properties-container">
+      <uie:EnumField label="Type" name="typeField"/>
+      <uie:EnumField label="Ease" name="ease"/>
+      <ui:VisualElement class="row-container">
+        <ui:VisualElement class="row-container">
+          <ui:Label text="Start Delay" class="field-label"/>
+          <uie:FloatField name="startDelay" class="field-label"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="row-container">
+          <ui:Label text="Duration" class="field-label"/>
+          <uie:FloatField name="duration" class="field-label"/>
+        </ui:VisualElement>
+
+      </ui:VisualElement>
+
+      <ui:VisualElement name="punchOptions" class="row-container" >
+        <ui:VisualElement class="row-container">
+          <ui:Label text="Vibrato" class="field-label"/>
+          <uie:IntegerField name="vibrato" class="field-label"/>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="row-container">
+          <ui:Label text="Elasticity" class="field-label"/>
+          <uie:FloatField name="elasticity" class="field-label"/>
+        </ui:VisualElement>
+      </ui:VisualElement>
+
+      <uie:Vector3Field label="Scale By" name="by"></uie:Vector3Field>
+
+    </ui:VisualElement>
+
+
+  </ui:VisualElement>
+</ui:UXML>
